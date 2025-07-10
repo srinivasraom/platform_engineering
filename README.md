@@ -2,23 +2,23 @@
 - Platform engineering is the practice of designing, building, and maintaining internal developer platforms (IDPs) and shared infrastructure that enable software engineers to build and run applications reliably, securely, and efficiently.
 - This means creating highly automated, scalable, and reusable systems that power applications and services.
 - The platform engineering typically looks at:
-  - Building internal platforms
+  - **Building internal platforms**
     - Build shared services and platform APIs that application teams can use instead of reinventing the wheel.  Below are few examples.
         - Container orchestration systems
         - Distributed SQL database
         - Internal CI/CD pipelines
         - Observability tooling
-  - Infrastructure Abstraction
+  - **Infrastructure Abstraction**
     - Platform teams abstract complex infrastructure (networking, storage, compute) behind APIs, CLIs, or UIs so developers don’t have to manage low-level details. Below are few examples.
       - Engineers use internal tools to deploy microservices without worrying about provisioning VMs or managing load balancing.
-  - Developer Experience
+  - **Developer Experience**
     - Focus on automating workflows: test, build, deploy, monitor.
     - Using tools to help with fast, reproducible builds.
     - Internal dashboards, service mesh tools, and security automation help developers stay productive and compliant.
-  - Security and Compliance by default
+  - **Security and Compliance by default**
     - Embed teams with zero-trust security, IAM policies, and data governance into the platform so teams automatically follow best practices.
       - Example: enforcing encryption at rest and in transit without developer effort.
-  - Scalability and reliability
+  - **Scalability and reliability**
     - Everything is built with planet-scale reliability in mind: multi-region redundancy, automated failover, monitoring, and self-healing.
     - SRE (Site Reliability Engineering) teams work closely with platform engineers to make sure the platforms meet strict SLIs and SLOs.
       - SLI (Service Level Indicator) - What are we measuring as concrete metric.
